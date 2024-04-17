@@ -1,21 +1,26 @@
-public class Model
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+
+public class Controller
 {
-    // Definição do delegado para o evento
-    public delegate void ContentAnalyzedEventHandler(ContentStatistics statistics);
+    private Model model;
+    private View view;
 
-    // Evento baseado no delegado
-    public event ContentAnalyzedEventHandler ContentAnalyzed;
-
-    // Método que aciona o evento
-    protected virtual void OnContentAnalyzed(ContentStatistics statistics)
+    public Controller()
     {
-        ContentAnalyzed?.Invoke(statistics);
+        model = new Model();
+        view = new View(this);
+        model.ContentAnalyzed += Model_ContentAnalyzed; // Subscreve ao evento
     }
 
-    public void ObterEAnalisarConteudo(string url)
+    private void Model_ContentAnalyzed(ContentStatistics statistics)
     {
-        // Lógica para obter e analisar o conteúdo
-        var statistics = new ContentStatistics(); // Suponha que a análise é feita aqui
-        OnContentAnalyzed(statistics); // Aciona o evento
+        // Lógica para responder ao evento
+        view.ExibirEstatisticas(statistics);
+    }
+
+    public void SolicitarAnaliseDeConteudo(string url)
+    {
+        model.ObterEAnalisarConteudo(url);
     }
 }
