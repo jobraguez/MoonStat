@@ -8,8 +8,9 @@ namespace MoonStat
         [STAThread]
         static void Main()
         {
-            var controller = new Controller();
-            controller.start();
+            ApplicationConfiguration.Initialize();
+            Controller controller = new Controller();
+            controller.IniciarPrograma();
         }
     }
 }

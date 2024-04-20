@@ -8,13 +8,47 @@ namespace MoonStat
 {
     internal class Controller
     {
-    public void start()
-    {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new View());
-    }
+        private View view;
+        private Model model;
+        public Controller()
+        {
+            view = new View();
+            model = new Model(this, view);
+
+            SubscreverEventos();
+        }
+
+        public void IniciarPrograma()
+        {
+            view.Ativar(); // apresentar mensagem de boas vindas
+        }
+
+        private void SubscreverEventos()
+        {
+            view.iniciarAnaliseEvent += iniciarAnalise;
+            model.resultadosEvent += ApresentarResultados;
+            model.notificacaoEvent += ApresentarNotificacao;
+        }
+
+        private void iniciarAnalise(object sender, AnaliseEventArgs e)
+        {
+            model.IniciarAnalise(e.URL);
+        }
+
+        private void ApresentarResultados(object sender, Resultados e) {
+            if (view.InvokeRequired)
+                view.Invoke(new Action(() => view.ApresentarResultados(e.resultados)));
+            else
+                view.ApresentarResultados(e.resultados);
+        }
+
+        private void ApresentarNotificacao(object sender, Notificacao e)
+        {
+            if (view.InvokeRequired)
+                view.Invoke(new Action(() => view.AtualizarProgresso(e.msg)));
+            else
+                view.AtualizarProgresso(e.msg);
+        }
     }
 
 }
