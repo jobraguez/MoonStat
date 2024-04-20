@@ -1,0 +1,17 @@
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.GenerateResource.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfoInputs.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfo.cs
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.sourcelink.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\refint\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.View.resources
