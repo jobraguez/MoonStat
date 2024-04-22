@@ -1,10 +1,10 @@
 
 namespace MoonStat
 {
-    public class AnaliseEventArgs : EventArgs
-    {
-        public String URL { get; set; }
-    }
+    //public class AnaliseEventArgs : EventArgs
+    //{
+    //    public String URL { get; set; }
+    //}
 
     public partial class View : Form
     {

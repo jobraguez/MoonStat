@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nuno\\Desktop\\MoonStat\\MoonStat\\MoonStat.csproj": {}
+    "C:\\Users\\Escritório\\Source\\Repos\\jobraguez\\MoonStat\\MoonStat\\MoonStat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nuno\\Desktop\\MoonStat\\MoonStat\\MoonStat.csproj": {
+    "C:\\Users\\Escritório\\Source\\Repos\\jobraguez\\MoonStat\\MoonStat\\MoonStat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuno\\Desktop\\MoonStat\\MoonStat\\MoonStat.csproj",
+        "projectUniqueName": "C:\\Users\\Escritório\\Source\\Repos\\jobraguez\\MoonStat\\MoonStat\\MoonStat.csproj",
         "projectName": "MoonStat",
-        "projectPath": "C:\\Users\\Nuno\\Desktop\\MoonStat\\MoonStat\\MoonStat.csproj",
-        "packagesPath": "C:\\Users\\Nuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuno\\Desktop\\MoonStat\\MoonStat\\obj\\",
+        "projectPath": "C:\\Users\\Escritório\\Source\\Repos\\jobraguez\\MoonStat\\MoonStat\\MoonStat.csproj",
+        "packagesPath": "C:\\Users\\Escritório\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Escritório\\Source\\Repos\\jobraguez\\MoonStat\\MoonStat\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nuno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Escritório\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
@@ -63,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
