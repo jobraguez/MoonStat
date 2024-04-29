@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 
 namespace MoonStat
 {
@@ -20,6 +23,7 @@ namespace MoonStat
     {
         private Controller controller;
         private View view;
+        private IWebDriver driver;
 
         public EventHandler<Notificacao> notificacaoEvent;
         public EventHandler<Resultados> resultadosEvent;
@@ -28,6 +32,7 @@ namespace MoonStat
         {
             controller = c;
             view = v;
+            driver = new ChromeDriver();
         }
 
         public void IniciarAnalise(String url)
@@ -35,20 +40,27 @@ namespace MoonStat
             Task.Run(() =>
             {
                 Notificar("A obter conteúdo da página web");
-                AnalisarWeb();
+                var texto = AnalisarWeb(url); // Analisar o conteúdo da página web
                 Notificar("A analisar conteúdo");
-                TermosMaisUsados();
-                ContarPalavras();
-                EntregarResultados();
+                string[] termos = DividirTexto(texto);
+                int numTermos = ContarTotalTermos(termos);
+                var termosMaisUsados = TermosMaisUsados(termos);
+                // outras estatisticas relevantes
+                EntregarResultados(numTermos, termosMaisUsados);
             });
         }
 
-        private void EntregarResultados()
+        private void EntregarResultados(int numTermos, Dictionary<string, int> termosMaisUsados)
         {
             if (resultadosEvent != null)
             {
                 var resultado = new Resultados();
-                resultado.resultados = "Estatísticas incríveis";
+                resultado.resultados = $"Número total de termos: {numTermos}\n";
+                resultado.resultados += "Termos mais usados:\n";
+                foreach (var kvp in termosMaisUsados.OrderByDescending(x => x.Value).Take(10)) // Mostra as 10 palavras mais usadas
+                {
+                    resultado.resultados += $"- {kvp.Key}: {kvp.Value}\n";
+                }
                 resultadosEvent(this, resultado);
             }
         }
@@ -63,21 +75,38 @@ namespace MoonStat
             }
         }
 
-        private void AnalisarWeb()
+        private string AnalisarWeb(String url)
         {
-            Thread.Sleep(3000);
+            driver.Navigate().GoToUrl(url); // Navegar para a página web
+            return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
         }
 
-
-        private void TermosMaisUsados()
+        private string[] DividirTexto(string texto)
         {
-            Thread.Sleep(3000);
+            string[] termos = texto.Split(new[] { ' ', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+            return termos;
         }
 
-
-        private void ContarPalavras()
+        private Dictionary<string, int> TermosMaisUsados(string[] termos)
         {
-            Thread.Sleep(3000);
+            Dictionary<string, int> termosContados = new Dictionary<string, int>();
+            foreach (string termo in termos)
+            {
+                if (termosContados.ContainsKey(termo))
+                {
+                    termosContados[termo]++;
+                }
+                else
+                {
+                    termosContados[termo] = 1;
+                }
+            }
+            return termosContados;
+        }
+
+        private int ContarTotalTermos(string[] termos)
+        {
+            return termos.Length;
         }
 
         // outras estatisticas relevantes

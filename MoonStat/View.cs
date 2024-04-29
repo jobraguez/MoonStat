@@ -1,4 +1,6 @@
 
+using System.Text.RegularExpressions;
+
 namespace MoonStat
 {
     //public class AnaliseEventArgs : EventArgs
@@ -37,6 +39,11 @@ namespace MoonStat
 
         private bool InputValido(String input)
         {
+            if (input == null || input.Length == 0)
+                return false;
+            Regex urlRegex = new Regex(@"^http(s)?://([\w-]+.)+[\w-]+(/[\w- ./?%&=])?$");
+            if (!urlRegex.IsMatch(input))
+                return false;
             return true;
         }
 
