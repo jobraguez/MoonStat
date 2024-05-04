@@ -30,9 +30,18 @@ namespace MoonStat
 
         public Model(Controller c, View v)
         {
+            // Desativar a janela de prompt do Chrome
+            var driverService = ChromeDriverService.CreateDefaultService();
+            driverService.HideCommandPromptWindow = true;
+
+            // Desativar abertura da janela do Chrome
+            ChromeOptions options = new ChromeOptions();
+            options.AddArgument("--headless");
+
+
             controller = c;
             view = v;
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(driverService, options);
         }
 
         public void IniciarAnalise(String url)
@@ -40,12 +49,23 @@ namespace MoonStat
             Task.Run(() =>
             {
                 Notificar("A obter conteúdo da página web");
-                var texto = AnalisarWeb(url); // Analisar o conteúdo da página web
-                Notificar("A analisar conteúdo");
-                string[] termos = DividirTexto(texto);
-                int numTermos = ContarTotalTermos(termos);
-                var termosMaisUsados = TermosMaisUsados(termos);
-                // outras estatisticas relevantes
+                string[] termos = new string[0];
+                int numTermos = 0;
+                var termosMaisUsados = new Dictionary<string, int>(); //?
+                try
+                {
+                    var texto = AnalisarWeb(url); // Analisar o conteúdo da página web
+                    Notificar("A analisar conteúdo");
+                    termos = DividirTexto(texto);
+                    numTermos = ContarTotalTermos(termos);
+                    termosMaisUsados = TermosMaisUsados(termos);
+                    // outras estatisticas relevantes
+                    EntregarResultados(numTermos, termosMaisUsados);
+                    Notificar("Análise concluída");
+                } catch (Exception e)
+                {
+                    Notificar(e.Message);
+                }
                 EntregarResultados(numTermos, termosMaisUsados);
             });
         }
@@ -77,8 +97,23 @@ namespace MoonStat
 
         private string AnalisarWeb(String url)
         {
-            driver.Navigate().GoToUrl(url); // Navegar para a página web
-            return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
+            try
+            {
+                driver.Navigate().GoToUrl(url); // Navegar para a página web
+                return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
+
+            } catch (Exception e) { // Capturar exceções (ex: página web não responde, URL inválido, etc.
+                if (e is WebDriverException || e is NoSuchElementException)
+                {
+                    throw new Exception("Erro ao obter conteúdo da página web: " + e.Message);
+                } else if (e is UriFormatException)
+                {
+                    throw new Exception("URL inválida: \n" + e.Message);
+                } else
+                {
+                    throw new Exception("Erro desconhecido: " + e.Message);
+                }
+            }
         }
 
         private string[] DividirTexto(string texto)

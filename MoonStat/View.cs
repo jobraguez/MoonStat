@@ -3,10 +3,6 @@ using System.Text.RegularExpressions;
 
 namespace MoonStat
 {
-    //public class AnaliseEventArgs : EventArgs
-    //{
-    //    public String URL { get; set; }
-    //}
 
     public partial class View : Form
     {
@@ -51,20 +47,28 @@ namespace MoonStat
         {
             String urlStr = inputURL.Text;
 
-            if (InputValido(urlStr))
+            if (Uri.IsWellFormedUriString(urlStr, UriKind.Absolute))
             {
                 var arg = new AnaliseEventArgs() { URL = urlStr };
 
                 if (iniciarAnaliseEvent != null)
                     iniciarAnaliseEvent(this, arg);
-            } 
+            }
             else
             {
-                MessageBox.Show("URL invalido");
+                MessageBox.Show("URL invalido: Certifique-se que coloca o URL completo");
             }
 
         }
 
+        private void View_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void progressoDaAnalise_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

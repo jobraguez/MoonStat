@@ -54,12 +54,12 @@
             botaoIniciarAnalise.UseVisualStyleBackColor = true;
             botaoIniciarAnalise.Click += iniciarAnalise_Click;
             // 
-            // resultados
+            // resultadosTextBox
             // 
             resultadosTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            resultadosTextBox.Location = new Point(12, 122);
-            resultadosTextBox.Name = "resultados";
-            resultadosTextBox.Size = new Size(822, 433);
+            resultadosTextBox.Location = new Point(12, 147);
+            resultadosTextBox.Name = "resultadosTextBox";
+            resultadosTextBox.Size = new Size(822, 408);
             resultadosTextBox.TabIndex = 3;
             resultadosTextBox.Text = "";
             // 
@@ -67,10 +67,12 @@
             // 
             progressoDaAnalise.AutoSize = true;
             progressoDaAnalise.Location = new Point(12, 104);
+            progressoDaAnalise.MaximumSize = new Size(600, 0);
             progressoDaAnalise.Name = "progressoDaAnalise";
             progressoDaAnalise.Size = new Size(16, 15);
             progressoDaAnalise.TabIndex = 4;
             progressoDaAnalise.Text = "...";
+            progressoDaAnalise.Click += progressoDaAnalise_Click;
             // 
             // View
             // 
@@ -83,6 +85,7 @@
             Controls.Add(inputURL);
             Name = "View";
             Text = "MoonStat";
+            Load += View_Load;
             ResumeLayout(false);
             PerformLayout();
         }
