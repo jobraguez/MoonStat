@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +30,7 @@ namespace MoonStat
             model.notificacaoEvent += ApresentarNotificacao;
         }
 
-        private void iniciarAnalise(object sender, AnaliseEventArgs e)
+        private void iniciarAnalise(object? sender, AnaliseEventArgs e)
         {
             model.IniciarAnalise(e.URL);
         }
