@@ -8,6 +8,6 @@ namespace MoonStat
 {
     public class AnaliseEventArgs : EventArgs
     {
-        public string URL { get; set; } = string.Empty;  // Inicializado com string vazia
+        public string URL { get; set; } = string.Empty;  // JB Inicializado com string vazia
     }
 }
