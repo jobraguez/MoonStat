@@ -1,0 +1,122 @@
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.GenerateResource.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfoInputs.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfo.cs
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.sourcelink.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\refint\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.View.resources
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.GenerateResource.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfoInputs.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfo.cs
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.sourcelink.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\refint\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AnaliseEventArgs.resources
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.GenerateResource.cache
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfoInputs.cache
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfo.cs
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.CoreCompileInputs.cache
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.sourcelink.json
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.dll
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\refint\MoonStat.dll
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
+C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.View.resources
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\linux\selenium-manager
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\macos\selenium-manager
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\windows\selenium-manager.exe
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\UAb\MoonStat\MoonStat\bin\Debug\net8.0-windows\WebDriver.dll
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.AssemblyReference.cache
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.View.resources
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.GenerateResource.cache
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.GeneratedMSBuildEditorConfig.editorconfig
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfoInputs.cache
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfo.cs
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.CoreCompileInputs.cache
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.sourcelink.json
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.Up2Date
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.dll
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\refint\MoonStat.dll
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.pdb
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
+D:\UAb\MoonStat\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\linux\selenium-manager
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\macos\selenium-manager
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\windows\selenium-manager.exe
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\bin\Debug\net8.0-windows\WebDriver.dll
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.AssemblyReference.cache
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.View.resources
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.GenerateResource.cache
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfoInputs.cache
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfo.cs
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.CoreCompileInputs.cache
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.sourcelink.json
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.Up2Date
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.dll
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\refint\MoonStat.dll
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.pdb
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
+Z:\Diogo\Formacao\UAB\Laboratorio de desenvolvimento de software\Git\MoonStat\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.dll
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\refint\MoonStat.dll
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.AssemblyReference.cache
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.View.resources
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.GenerateResource.cache
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfoInputs.cache
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.AssemblyInfo.cs
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.CoreCompileInputs.cache
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\selenium-manager\linux\selenium-manager
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\selenium-manager\macos\selenium-manager
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\selenium-manager\windows\selenium-manager.exe
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\WebDriver.dll
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.Up2Date
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
+C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
