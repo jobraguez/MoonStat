@@ -11,12 +11,12 @@ namespace MoonStat
 {
     class Notificacao : EventArgs
     {
-        public string msg { get; set; } = string.Empty;  // Inicializado com string vazia
+        public string msg { get; set; } = string.Empty;  // JB Inicializado com string vazia
     }
 
     class Resultados : EventArgs
     {
-        public string resultados { get; set; } = string.Empty;  // Inicializado com string vazia
+        public string resultados { get; set; } = string.Empty;  // JB Inicializado com string vazia
     }
 
     internal class Model
@@ -25,8 +25,8 @@ namespace MoonStat
         private View view;
         private IWebDriver driver;
 
-        public EventHandler<Notificacao>? notificacaoEvent;
-        public EventHandler<Resultados>? resultadosEvent;
+        public EventHandler<Notificacao>? notificacaoEvent; // JB iNSERI ?
+        public EventHandler<Resultados>? resultadosEvent; // JB iNSERI ?
 
         public Model(Controller c, View v)
         {
@@ -56,19 +56,19 @@ namespace MoonStat
                 {
                     var texto = AnalisarWeb(url); // Analisar o conteúdo da página web
                     Notificar("A analisar conteúdo");
-                    Logger.LogInfo("Conteúdo obtido, iniciando análise do texto.");
+                    Logger.LogInfo("Conteúdo obtido, iniciando análise do texto."); // JB
 
                     termos = DividirTexto(texto);
                     numTermos = ContarTotalTermos(termos);
-                    Logger.LogInfo($"Obteve {numTermos} termos.");
+                    Logger.LogInfo($"Obteve {numTermos} termos."); // JB
 
                     termosMaisUsados = TermosMaisUsados(termos);
-                    Logger.LogInfo($"Os termos mais usados foram calculados.");
+                    Logger.LogInfo($"Os termos mais usados foram calculados."); // JB
 
                     // outras estatisticas relevantes
                     EntregarResultados(numTermos, termosMaisUsados);
                     Notificar("Análise concluída");
-                    Logger.LogInfo("Análise concluída para a URL: " + url);
+                    Logger.LogInfo("Análise concluída para a URL: " + url); // JB
                 } catch (Exception e)
                 {
                     Notificar(e.Message);
@@ -78,7 +78,7 @@ namespace MoonStat
             });
         }
 
-        private void Notificar(String msg)
+        private void Notificar(String msg) // JB ALTEREI
         {
             notificacaoEvent?.Invoke(this, new Notificacao { msg = msg });
         }
@@ -88,7 +88,7 @@ namespace MoonStat
             if (resultadosEvent != null)
             {
                 var resultado = new Resultados();
-                resultado.resultados = $"Número total de termos: {numTermos}\n";
+                resultado.resultados = $"Número total de termos: {numTermos}\n"; // JB ALTEREI
                 foreach (var kvp in termosMaisUsados.OrderByDescending(x => x.Value).Take(10))
                 {
                     resultado.resultados += $"- {kvp.Key}: {kvp.Value}\n";
@@ -104,7 +104,7 @@ namespace MoonStat
     try
     {
         driver.Navigate().GoToUrl(url); // Navegar para a página web
-        Logger.LogInfo("Navegação para URL bem-sucedida: " + url);
+        Logger.LogInfo("Navegação para URL bem-sucedida: " + url); // JB
         return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
     }
     catch (Exception e)
@@ -112,17 +112,17 @@ namespace MoonStat
         // Loga erro específico com base no tipo de exceção
         if (e is WebDriverException || e is NoSuchElementException)
         {
-            Logger.LogError("Erro ao obter conteúdo da página web para a URL " + url + ": " + e.Message);
+            Logger.LogError("Erro ao obter conteúdo da página web para a URL " + url + ": " + e.Message); // JB
             throw new Exception("Erro ao obter conteúdo da página web: " + e.Message);
         }
         else if (e is UriFormatException)
         {
-            Logger.LogError("Formato de URL inválido para a URL " + url + ": " + e.Message);
+            Logger.LogError("Formato de URL inválido para a URL " + url + ": " + e.Message); // JB
             throw new Exception("URL inválida: \n" + e.Message);
         }
         else
         {
-            Logger.LogError("Erro desconhecido ao acessar a URL " + url + ": " + e.Message);
+            Logger.LogError("Erro desconhecido ao acessar a URL " + url + ": " + e.Message); // JB
             throw new Exception("Erro desconhecido: " + e.Message);
         }
     }
