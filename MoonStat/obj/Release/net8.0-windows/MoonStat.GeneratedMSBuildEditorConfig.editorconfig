@@ -14,6 +14,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MoonStat
+<<<<<<< HEAD
 build_property.ProjectDir = D:\UAb\MoonStat\MoonStat\
+=======
+build_property.ProjectDir = C:\Users\Nuno\Desktop\MoonStat\MoonStat\
+>>>>>>> e15dda75876248635fd40f9177b14122b9a4a748
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

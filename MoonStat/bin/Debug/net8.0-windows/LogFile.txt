@@ -60,6 +60,7 @@
 2024-05-17 10:29:25 [INFO] Obteve 261 termos.
 2024-05-17 10:29:25 [INFO] Os termos mais usados foram calculados.
 2024-05-17 10:29:25 [INFO] Análise concluída para a URL: http://www.google.com
+<<<<<<< HEAD
 2024-05-18 18:16:27 [INFO] [MODEL] Navegação para URL bem-sucedida: http://www.google.pt
 2024-05-18 18:16:27 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
 2024-05-18 18:16:27 [INFO] [MODEL] Obteve 261 termos.
@@ -120,3 +121,46 @@
   (Session info: chrome-headless-shell=124.0.6367.202)
 2024-05-18 18:36:26 [INFO] [CONTROLLER] Apresentar resultados
 2024-05-18 18:42:15 [INFO] [CONTROLLER] Programa iniciado
+=======
+2024-05-18 19:26:04 [INFO] Navegação para URL bem-sucedida: http://www.google.com
+2024-05-18 19:26:04 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:26:04 [INFO] Obteve 261 termos.
+2024-05-18 19:26:04 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:26:04 [INFO] Análise concluída para a URL: http://www.google.com
+2024-05-18 19:26:29 [INFO] Navegação para URL bem-sucedida: https://google.com
+2024-05-18 19:26:29 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:26:29 [INFO] Obteve 261 termos.
+2024-05-18 19:26:29 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:26:29 [INFO] Análise concluída para a URL: https://google.com
+2024-05-18 19:26:34 [INFO] Navegação para URL bem-sucedida: https://www.google.com
+2024-05-18 19:26:34 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:26:34 [INFO] Obteve 261 termos.
+2024-05-18 19:26:34 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:26:34 [INFO] Análise concluída para a URL: https://www.google.com
+2024-05-18 19:28:04 [INFO] Navegação para URL bem-sucedida: http://www.google.com
+2024-05-18 19:28:04 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:28:04 [INFO] Obteve 261 termos.
+2024-05-18 19:28:04 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:28:04 [INFO] Análise concluída para a URL: http://www.google.com
+>>>>>>> e15dda75876248635fd40f9177b14122b9a4a748
+2024-05-18 18:52:34 [INFO] [CONTROLLER] Iniciar análise
+2024-05-18 18:52:34 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:52:35 [INFO] [MODEL] Navegação para URL bem-sucedida: http://www.google.pt
+2024-05-18 18:52:36 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:52:36 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:52:36 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:52:36 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:52:36 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:52:36 [INFO] [MODEL] Análise concluída para a URL: http://www.google.pt
+2024-05-18 18:53:00 [INFO] [CONTROLLER] Programa iniciado
+2024-05-18 18:53:18 [INFO] [CONTROLLER] Programa iniciado
+2024-05-18 18:53:33 [INFO] [CONTROLLER] Iniciar análise
+2024-05-18 18:53:33 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:53:33 [INFO] [MODEL] Navegação para URL bem-sucedida: http://www.sapo.pt
+2024-05-18 18:53:35 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:53:35 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:53:35 [INFO] [MODEL] Obteve 2838 termos.
+2024-05-18 18:53:35 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:53:35 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:53:35 [INFO] [MODEL] Análise concluída para a URL: http://www.sapo.pt
+2024-05-18 18:53:36 [INFO] [CONTROLLER] Programa iniciado
