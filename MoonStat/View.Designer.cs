@@ -72,7 +72,6 @@
             progressoDaAnalise.Size = new Size(16, 15);
             progressoDaAnalise.TabIndex = 4;
             progressoDaAnalise.Text = "...";
-            progressoDaAnalise.Click += progressoDaAnalise_Click;
             // 
             // View
             // 
@@ -85,7 +84,6 @@
             Controls.Add(inputURL);
             Name = "View";
             Text = "MoonStat";
-            Load += View_Load;
             ResumeLayout(false);
             PerformLayout();
         }

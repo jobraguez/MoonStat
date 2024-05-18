@@ -69,10 +69,11 @@ namespace MoonStat
                     EntregarResultados(numTermos, termosMaisUsados);
                     Notificar("Análise concluída");
                     Logger.LogInfo("Análise concluída para a URL: " + url); // JB
-                } catch (Exception e)
+                }
+                catch (Exception e)
                 {
                     Notificar(e.Message);
-                    
+
                 }
                 EntregarResultados(numTermos, termosMaisUsados);
             });
@@ -100,33 +101,33 @@ namespace MoonStat
 
 
         private string AnalisarWeb(String url)
-{
-    try
-    {
-        driver.Navigate().GoToUrl(url); // Navegar para a página web
-        Logger.LogInfo("Navegação para URL bem-sucedida: " + url); // JB
-        return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
-    }
-    catch (Exception e)
-    {
-        // Loga erro específico com base no tipo de exceção
-        if (e is WebDriverException || e is NoSuchElementException)
         {
-            Logger.LogError("Erro ao obter conteúdo da página web para a URL " + url + ": " + e.Message); // JB
-            throw new Exception("Erro ao obter conteúdo da página web: " + e.Message);
+            try
+            {
+                driver.Navigate().GoToUrl(url); // Navegar para a página web
+                Logger.LogInfo("Navegação para URL bem-sucedida: " + url); // JB
+                return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
+            }
+            catch (Exception e)
+            {
+                // Loga erro específico com base no tipo de exceção
+                if (e is WebDriverException || e is NoSuchElementException)
+                {
+                    Logger.LogError("Erro ao obter conteúdo da página web para a URL " + url + ": " + e.Message); // JB
+                    throw new Exception("Erro ao obter conteúdo da página web: " + e.Message);
+                }
+                else if (e is UriFormatException)
+                {
+                    Logger.LogError("Formato de URL inválido para a URL " + url + ": " + e.Message); // JB
+                    throw new Exception("URL inválida: \n" + e.Message);
+                }
+                else
+                {
+                    Logger.LogError("Erro desconhecido ao acessar a URL " + url + ": " + e.Message); // JB
+                    throw new Exception("Erro desconhecido: " + e.Message);
+                }
+            }
         }
-        else if (e is UriFormatException)
-        {
-            Logger.LogError("Formato de URL inválido para a URL " + url + ": " + e.Message); // JB
-            throw new Exception("URL inválida: \n" + e.Message);
-        }
-        else
-        {
-            Logger.LogError("Erro desconhecido ao acessar a URL " + url + ": " + e.Message); // JB
-            throw new Exception("Erro desconhecido: " + e.Message);
-        }
-    }
-}
 
 
         private string[] DividirTexto(string texto)
@@ -156,8 +157,6 @@ namespace MoonStat
         {
             return termos.Length;
         }
-
-        // outras estatisticas relevantes
 
     }
 }

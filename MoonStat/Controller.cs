@@ -30,19 +30,20 @@ namespace MoonStat
             model.notificacaoEvent += ApresentarNotificacao;
         }
 
-        private void iniciarAnalise(object? sender, AnaliseEventArgs e) // JB INSERI ?
+        private void iniciarAnalise(object? sender, AnaliseEventArgs e)
         {
             model.IniciarAnalise(e.URL);
         }
 
-        private void ApresentarResultados(object? sender, Resultados e) { JB INSERI ?
+        private void ApresentarResultados(object? sender, Resultados e)
+        {
             if (view.InvokeRequired)
                 view.Invoke(new Action(() => view.ApresentarResultados(e.resultados)));
             else
                 view.ApresentarResultados(e.resultados);
         }
 
-        private void ApresentarNotificacao(object? sender, Notificacao e) JB INSERI ?
+        private void ApresentarNotificacao(object? sender, Notificacao e)
         {
             if (view.InvokeRequired)
                 view.Invoke(new Action(() => view.AtualizarProgresso(e.msg)));

@@ -15,7 +15,6 @@ namespace MoonStat
         public void Ativar()
         {
             Application.Run(this);
-            EcraDeBoasVindas();
         }
 
         public void ApresentarResultados(String resultados)
@@ -28,24 +27,19 @@ namespace MoonStat
             progressoDaAnalise.Text = patamar;
         }
 
-        public void EcraDeBoasVindas()
+        private String AdicionarPrefixoHTTP(String url)
         {
-
-        }
-
-        private bool InputValido(String input)
-        {
-            if (input == null || input.Length == 0)
-                return false;
-            Regex urlRegex = new Regex(@"^http(s)?://([\w-]+.)+[\w-]+(/[\w- ./?%&=])?$");
-            if (!urlRegex.IsMatch(input))
-                return false;
-            return true;
+            if (!url.StartsWith("http://",StringComparison.OrdinalIgnoreCase) &&
+                !url.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
+            {
+                return "http://" + url;
+            }
+            return url;
         }
 
         private void iniciarAnalise_Click(object sender, EventArgs e)
         {
-            String urlStr = inputURL.Text;
+            String urlStr = AdicionarPrefixoHTTP(inputURL.Text);
 
             if (Uri.IsWellFormedUriString(urlStr, UriKind.Absolute))
             {
@@ -58,16 +52,6 @@ namespace MoonStat
             {
                 MessageBox.Show("URL invalido: Certifique-se que coloca o URL completo");
             }
-
-        }
-
-        private void View_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void progressoDaAnalise_Click(object sender, EventArgs e)
-        {
 
         }
     }

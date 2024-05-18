@@ -60,3 +60,23 @@
 2024-05-17 10:29:25 [INFO] Obteve 261 termos.
 2024-05-17 10:29:25 [INFO] Os termos mais usados foram calculados.
 2024-05-17 10:29:25 [INFO] Análise concluída para a URL: http://www.google.com
+2024-05-18 19:26:04 [INFO] Navegação para URL bem-sucedida: http://www.google.com
+2024-05-18 19:26:04 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:26:04 [INFO] Obteve 261 termos.
+2024-05-18 19:26:04 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:26:04 [INFO] Análise concluída para a URL: http://www.google.com
+2024-05-18 19:26:29 [INFO] Navegação para URL bem-sucedida: https://google.com
+2024-05-18 19:26:29 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:26:29 [INFO] Obteve 261 termos.
+2024-05-18 19:26:29 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:26:29 [INFO] Análise concluída para a URL: https://google.com
+2024-05-18 19:26:34 [INFO] Navegação para URL bem-sucedida: https://www.google.com
+2024-05-18 19:26:34 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:26:34 [INFO] Obteve 261 termos.
+2024-05-18 19:26:34 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:26:34 [INFO] Análise concluída para a URL: https://www.google.com
+2024-05-18 19:28:04 [INFO] Navegação para URL bem-sucedida: http://www.google.com
+2024-05-18 19:28:04 [INFO] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 19:28:04 [INFO] Obteve 261 termos.
+2024-05-18 19:28:04 [INFO] Os termos mais usados foram calculados.
+2024-05-18 19:28:04 [INFO] Análise concluída para a URL: http://www.google.com

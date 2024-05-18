@@ -31,7 +31,6 @@ C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.dll
 C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.pdb
 C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
 C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
-C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.AnaliseEventArgs.resources
 C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.exe
 C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.deps.json
 C:\Users\Escritório\Source\Repos\jobraguez\MoonStat\MoonStat\bin\Debug\net8.0-windows\MoonStat.runtimeconfig.json
@@ -120,3 +119,11 @@ C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\bin\Debug\net8.0-windows\WebDriver
 C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.Up2Date
 C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\MoonStat.genruntimeconfig.cache
 C:\Users\jbrag\Desktop\MoonStat-main\MoonStat\obj\Debug\net8.0-windows\ref\MoonStat.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.View.resources
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\linux\selenium-manager
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\macos\selenium-manager
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\selenium-manager\windows\selenium-manager.exe
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\bin\Debug\net8.0-windows\WebDriver.dll
+C:\Users\Nuno\Desktop\MoonStat\MoonStat\obj\Debug\net8.0-windows\MoonStat.csproj.Up2Date
