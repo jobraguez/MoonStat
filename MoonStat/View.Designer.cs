@@ -1,4 +1,4 @@
-﻿namespace MoonStat
+namespace MoonStat
 {
     partial class View
     {
