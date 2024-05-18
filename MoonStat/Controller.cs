@@ -10,10 +10,15 @@ namespace MoonStat
     {
         private View view;
         private Model model;
+
+        private ILogs logger;
+
         public Controller()
         {
             view = new View();
             model = new Model(this, view);
+
+            logger = new Logger();
 
             SubscreverEventos();
         }
@@ -21,6 +26,7 @@ namespace MoonStat
         public void IniciarPrograma()
         {
             view.Ativar(); // apresentar mensagem de boas vindas
+            logger.LogInfo("CONTROLLER", "Programa iniciado");
         }
 
         private void SubscreverEventos()
@@ -32,18 +38,21 @@ namespace MoonStat
 
         private void iniciarAnalise(object? sender, AnaliseEventArgs e) // JB INSERI ?
         {
+            logger.LogInfo("CONTROLLER", "Iniciar análise");
             model.IniciarAnalise(e.URL);
         }
 
-        private void ApresentarResultados(object? sender, Resultados e) { JB INSERI ?
+        private void ApresentarResultados(object? sender, Resultados e) { // JB INSERI ?
+            logger.LogInfo("CONTROLLER", "Apresentar resultados");
             if (view.InvokeRequired)
                 view.Invoke(new Action(() => view.ApresentarResultados(e.resultados)));
             else
                 view.ApresentarResultados(e.resultados);
         }
 
-        private void ApresentarNotificacao(object? sender, Notificacao e) JB INSERI ?
+        private void ApresentarNotificacao(object? sender, Notificacao e) // JB INSERI ?
         {
+            logger.LogInfo("CONTROLLER", "Apresentar notificação");
             if (view.InvokeRequired)
                 view.Invoke(new Action(() => view.AtualizarProgresso(e.msg)));
             else

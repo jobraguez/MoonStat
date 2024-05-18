@@ -60,3 +60,63 @@
 2024-05-17 10:29:25 [INFO] Obteve 261 termos.
 2024-05-17 10:29:25 [INFO] Os termos mais usados foram calculados.
 2024-05-17 10:29:25 [INFO] Análise concluída para a URL: http://www.google.com
+2024-05-18 18:16:27 [INFO] [MODEL] Navegação para URL bem-sucedida: http://www.google.pt
+2024-05-18 18:16:27 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:16:27 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:16:27 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:16:27 [INFO] [MODEL] Análise concluída para a URL: http://www.google.pt
+2024-05-18 18:19:03 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:19:03 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:19:03 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:19:03 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:19:03 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:19:54 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:19:54 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:19:54 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:19:54 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:19:54 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:22:16 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:22:16 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:22:16 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:22:16 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:22:16 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:22:54 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:22:54 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:22:54 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:22:54 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:22:54 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:24:18 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:24:18 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:24:18 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:24:18 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:24:18 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:25:25 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:25:26 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:25:26 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:25:26 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:25:26 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:29:26 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:29:26 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:29:26 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:29:26 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:29:26 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:35:54 [INFO] [CONTROLLER] Iniciar análise
+2024-05-18 18:35:54 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:35:56 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.google.pt
+2024-05-18 18:35:56 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:35:56 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-18 18:35:56 [INFO] [MODEL] Obteve 261 termos.
+2024-05-18 18:35:56 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-18 18:35:56 [INFO] [CONTROLLER] Apresentar resultados
+2024-05-18 18:35:56 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:35:56 [INFO] [MODEL] Análise concluída para a URL: https://www.google.pt
+2024-05-18 18:35:56 [INFO] [CONTROLLER] Apresentar resultados
+2024-05-18 18:36:26 [INFO] [CONTROLLER] Iniciar análise
+2024-05-18 18:36:26 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:36:26 [ERROR] [MODEL] Erro ao obter conteúdo da página web para a URL https://www.googlde.pt: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome-headless-shell=124.0.6367.202)
+2024-05-18 18:36:26 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-18 18:36:26 [ERROR] [MODEL] Erro ao obter conteúdo da página web: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome-headless-shell=124.0.6367.202)
+2024-05-18 18:36:26 [INFO] [CONTROLLER] Apresentar resultados
+2024-05-18 18:42:15 [INFO] [CONTROLLER] Programa iniciado

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jbrag\\Desktop\\MoonStat-main\\MoonStat\\MoonStat.csproj": {}
+    "D:\\UAb\\MoonStat\\MoonStat\\MoonStat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jbrag\\Desktop\\MoonStat-main\\MoonStat\\MoonStat.csproj": {
+    "D:\\UAb\\MoonStat\\MoonStat\\MoonStat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbrag\\Desktop\\MoonStat-main\\MoonStat\\MoonStat.csproj",
+        "projectUniqueName": "D:\\UAb\\MoonStat\\MoonStat\\MoonStat.csproj",
         "projectName": "MoonStat",
-        "projectPath": "C:\\Users\\jbrag\\Desktop\\MoonStat-main\\MoonStat\\MoonStat.csproj",
-        "packagesPath": "C:\\Users\\jbrag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbrag\\Desktop\\MoonStat-main\\MoonStat\\obj\\",
+        "projectPath": "D:\\UAb\\MoonStat\\MoonStat\\MoonStat.csproj",
+        "packagesPath": "C:\\Users\\goncalo.amaral\\.nuget\\packages\\",
+        "outputPath": "D:\\UAb\\MoonStat\\MoonStat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jbrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\goncalo.amaral\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
