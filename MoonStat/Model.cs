@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
@@ -11,12 +11,12 @@ namespace MoonStat
 {
     class Notificacao : EventArgs
     {
-        public String msg { get; set; }
+        public string msg { get; set; } = string.Empty;  // Inicializado com string vazia
     }
 
     class Resultados : EventArgs
     {
-        public String resultados { get; set; }
+        public string resultados { get; set; } = string.Empty;  // Inicializado com string vazia
     }
 
     internal class Model
@@ -25,8 +25,8 @@ namespace MoonStat
         private View view;
         private IWebDriver driver;
 
-        public EventHandler<Notificacao> notificacaoEvent;
-        public EventHandler<Resultados> resultadosEvent;
+        public EventHandler<Notificacao>? notificacaoEvent;
+        public EventHandler<Resultados>? resultadosEvent;
 
         public Model(Controller c, View v)
         {
@@ -56,18 +56,31 @@ namespace MoonStat
                 {
                     var texto = AnalisarWeb(url); // Analisar o conteúdo da página web
                     Notificar("A analisar conteúdo");
+                    Logger.LogInfo("Conteúdo obtido, iniciando análise do texto.");
+
                     termos = DividirTexto(texto);
                     numTermos = ContarTotalTermos(termos);
+                    Logger.LogInfo($"Obteve {numTermos} termos.");
+
                     termosMaisUsados = TermosMaisUsados(termos);
+                    Logger.LogInfo($"Os termos mais usados foram calculados.");
+
                     // outras estatisticas relevantes
                     EntregarResultados(numTermos, termosMaisUsados);
                     Notificar("Análise concluída");
+                    Logger.LogInfo("Análise concluída para a URL: " + url);
                 } catch (Exception e)
                 {
                     Notificar(e.Message);
+                    
                 }
                 EntregarResultados(numTermos, termosMaisUsados);
             });
+        }
+
+        private void Notificar(String msg)
+        {
+            notificacaoEvent?.Invoke(this, new Notificacao { msg = msg });
         }
 
         private void EntregarResultados(int numTermos, Dictionary<string, int> termosMaisUsados)
@@ -76,45 +89,45 @@ namespace MoonStat
             {
                 var resultado = new Resultados();
                 resultado.resultados = $"Número total de termos: {numTermos}\n";
-                resultado.resultados += "Termos mais usados:\n";
-                foreach (var kvp in termosMaisUsados.OrderByDescending(x => x.Value).Take(10)) // Mostra as 10 palavras mais usadas
+                foreach (var kvp in termosMaisUsados.OrderByDescending(x => x.Value).Take(10))
                 {
                     resultado.resultados += $"- {kvp.Key}: {kvp.Value}\n";
                 }
-                resultadosEvent(this, resultado);
+                resultadosEvent?.Invoke(this, resultado);
             }
         }
 
-        private void Notificar(String msg)
-        {
-            if (notificacaoEvent != null)
-            {
-                var notificacaoArg = new Notificacao();
-                notificacaoArg.msg = msg;
-                notificacaoEvent(this, notificacaoArg);
-            }
-        }
+
 
         private string AnalisarWeb(String url)
+{
+    try
+    {
+        driver.Navigate().GoToUrl(url); // Navegar para a página web
+        Logger.LogInfo("Navegação para URL bem-sucedida: " + url);
+        return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
+    }
+    catch (Exception e)
+    {
+        // Loga erro específico com base no tipo de exceção
+        if (e is WebDriverException || e is NoSuchElementException)
         {
-            try
-            {
-                driver.Navigate().GoToUrl(url); // Navegar para a página web
-                return driver.FindElement(By.TagName("body")).Text; // Obter o texto da página
-
-            } catch (Exception e) { // Capturar exceções (ex: página web não responde, URL inválido, etc.
-                if (e is WebDriverException || e is NoSuchElementException)
-                {
-                    throw new Exception("Erro ao obter conteúdo da página web: " + e.Message);
-                } else if (e is UriFormatException)
-                {
-                    throw new Exception("URL inválida: \n" + e.Message);
-                } else
-                {
-                    throw new Exception("Erro desconhecido: " + e.Message);
-                }
-            }
+            Logger.LogError("Erro ao obter conteúdo da página web para a URL " + url + ": " + e.Message);
+            throw new Exception("Erro ao obter conteúdo da página web: " + e.Message);
         }
+        else if (e is UriFormatException)
+        {
+            Logger.LogError("Formato de URL inválido para a URL " + url + ": " + e.Message);
+            throw new Exception("URL inválida: \n" + e.Message);
+        }
+        else
+        {
+            Logger.LogError("Erro desconhecido ao acessar a URL " + url + ": " + e.Message);
+            throw new Exception("Erro desconhecido: " + e.Message);
+        }
+    }
+}
+
 
         private string[] DividirTexto(string texto)
         {
