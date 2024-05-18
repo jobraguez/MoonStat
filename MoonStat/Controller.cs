@@ -35,14 +35,14 @@ namespace MoonStat
             model.IniciarAnalise(e.URL);
         }
 
-        private void ApresentarResultados(object sender, Resultados e) {
+        private void ApresentarResultados(object? sender, Resultados e) {
             if (view.InvokeRequired)
                 view.Invoke(new Action(() => view.ApresentarResultados(e.resultados)));
             else
                 view.ApresentarResultados(e.resultados);
         }
 
-        private void ApresentarNotificacao(object sender, Notificacao e)
+        private void ApresentarNotificacao(object? sender, Notificacao e)
         {
             if (view.InvokeRequired)
                 view.Invoke(new Action(() => view.AtualizarProgresso(e.msg)));
