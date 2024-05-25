@@ -29,7 +29,7 @@ namespace MoonStat
 
         private String AdicionarPrefixoHTTP(String url)
         {
-            if (!url.StartsWith("http://",StringComparison.OrdinalIgnoreCase) &&
+            if (!url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) &&
                 !url.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
             {
                 return "http://" + url;
@@ -40,10 +40,15 @@ namespace MoonStat
         private void iniciarAnalise_Click(object sender, EventArgs e)
         {
             String urlStr = AdicionarPrefixoHTTP(inputURL.Text);
+            String selectedriver = comboBox1.SelectedItem.ToString();
+            if (selectedriver == null)
+            {
+                selectedriver = "chrome";
+            }
 
             if (Uri.IsWellFormedUriString(urlStr, UriKind.Absolute))
             {
-                var arg = new AnaliseEventArgs() { URL = urlStr };
+                var arg = new AnaliseEventArgs() { URL = urlStr, Driver = selectedriver };
 
                 if (iniciarAnaliseEvent != null)
                     iniciarAnaliseEvent(this, arg);
@@ -53,6 +58,11 @@ namespace MoonStat
                 MessageBox.Show("URL invalido: Certifique-se que coloca o URL completo");
             }
 
+        }
+
+        private void View_Load(object sender, EventArgs e)
+        {
+            comboBox1.SelectedItem = "chrome";
         }
     }
 }

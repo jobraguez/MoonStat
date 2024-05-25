@@ -39,7 +39,7 @@ namespace MoonStat
         private void iniciarAnalise(object? sender, AnaliseEventArgs e)
         {
             logger.LogInfo("CONTROLLER", "Iniciar análise");
-            model.IniciarAnalise(e.URL);
+            model.IniciarAnalise(e.URL, e.Driver);
         }
 
         private void ApresentarResultados(object? sender, Resultados e)

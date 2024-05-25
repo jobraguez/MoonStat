@@ -32,12 +32,15 @@
             botaoIniciarAnalise = new Button();
             resultadosTextBox = new RichTextBox();
             progressoDaAnalise = new Label();
+            comboBox1 = new ComboBox();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // inputURL
             // 
             inputURL.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            inputURL.Location = new Point(12, 49);
+            inputURL.Location = new Point(12, 28);
             inputURL.Margin = new Padding(3, 100, 3, 3);
             inputURL.Name = "inputURL";
             inputURL.Size = new Size(822, 23);
@@ -46,9 +49,9 @@
             // botaoIniciarAnalise
             // 
             botaoIniciarAnalise.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            botaoIniciarAnalise.Location = new Point(12, 78);
+            botaoIniciarAnalise.Location = new Point(178, 79);
             botaoIniciarAnalise.Name = "botaoIniciarAnalise";
-            botaoIniciarAnalise.Size = new Size(822, 23);
+            botaoIniciarAnalise.Size = new Size(656, 24);
             botaoIniciarAnalise.TabIndex = 1;
             botaoIniciarAnalise.Text = "Iniciar Análise";
             botaoIniciarAnalise.UseVisualStyleBackColor = true;
@@ -73,17 +76,48 @@
             progressoDaAnalise.TabIndex = 4;
             progressoDaAnalise.Text = "...";
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "chrome", "firefox", "edge" });
+            comboBox1.Location = new Point(12, 79);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(160, 23);
+            comboBox1.TabIndex = 5;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 61);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 6;
+            label1.Text = "Driver";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(12, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(28, 15);
+            label2.TabIndex = 7;
+            label2.Text = "URL";
+            // 
             // View
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(846, 578);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(comboBox1);
             Controls.Add(progressoDaAnalise);
             Controls.Add(resultadosTextBox);
             Controls.Add(botaoIniciarAnalise);
             Controls.Add(inputURL);
             Name = "View";
             Text = "MoonStat";
+            Load += View_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -94,5 +128,8 @@
         private Button botaoIniciarAnalise;
         private RichTextBox resultadosTextBox;
         private Label progressoDaAnalise;
+        private ComboBox comboBox1;
+        private Label label1;
+        private Label label2;
     }
 }

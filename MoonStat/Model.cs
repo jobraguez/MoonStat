@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Edge;
 
 namespace MoonStat
 {
@@ -21,7 +23,7 @@ namespace MoonStat
     {
         private Controller controller;
         private View view;
-        private IWebDriver driver;
+        private IWebDriver? driver;
 
         private ILogs logger;
 
@@ -32,20 +34,12 @@ namespace MoonStat
         {
             logger = new Logger();
 
-            // Desativar a janela de prompt do Chrome
-            var driverService = ChromeDriverService.CreateDefaultService();
-            driverService.HideCommandPromptWindow = true;
-
-            // Desativar abertura da janela do Chrome
-            ChromeOptions options = new ChromeOptions();
-            options.AddArgument("--headless");
-
             controller = c;
             view = v;
-            driver = new ChromeDriver(driverService, options);
+
         }
 
-        public void IniciarAnalise(String url)
+        public void IniciarAnalise(String url, String driver)
         {
             Task.Run(() =>
             {
@@ -55,7 +49,7 @@ namespace MoonStat
                 var termosMaisUsados = new Dictionary<string, int>(); //?
                 try
                 {
-                    var texto = AnalisarWeb(url); // Analisar o conteúdo da página web
+                    var texto = AnalisarWeb(url, driver); // Analisar o conteúdo da página web
                     Notificar("A analisar conteúdo");
                     logger.LogInfo("MODEL", "Conteúdo obtido, iniciando análise do texto.");
 
@@ -99,8 +93,60 @@ namespace MoonStat
             }
         }
 
-        private string AnalisarWeb(String url)
+        private string AnalisarWeb(String url, String d)
         {
+            
+            try
+            {
+                logger.LogInfo("MODEL", "Iniciando o Driver: " + d);
+
+                if (d == "chrome")
+                {
+                    // Desativar a janela de prompt do Chrome
+                    var chromeDriverService = ChromeDriverService.CreateDefaultService();
+                    chromeDriverService.HideCommandPromptWindow = true;
+
+                    // Desativar abertura da janela do Chrome
+                    ChromeOptions options = new ChromeOptions();
+                    options.AddArgument("--headless");
+
+                    chromeDriverService.HideCommandPromptWindow = true;
+
+                    driver = new ChromeDriver(chromeDriverService, options);
+                }
+                else if (d == "firefox")
+                {
+                    var firefoxDriverService = FirefoxDriverService.CreateDefaultService();
+                    firefoxDriverService.HideCommandPromptWindow = true;
+
+                    FirefoxOptions options = new FirefoxOptions();
+                    options.AddArgument("--headless");
+
+                    driver = new FirefoxDriver(firefoxDriverService, options);
+                }
+                else if (d == "edge")
+                {
+                    var edgeDriverService = EdgeDriverService.CreateDefaultService();
+                    edgeDriverService.HideCommandPromptWindow = true;
+
+                    EdgeOptions options = new EdgeOptions();
+                    options.AddArgument("--headless");
+
+                    driver = new EdgeDriver(edgeDriverService, options);
+                }
+                else
+                {
+                    logger.LogError("MODEL", "Driver não suportado: " + d);
+                    throw new Exception("Driver "+ d +" não suportado");
+                }
+                
+            }
+            catch (Exception e)
+            {
+                logger.LogError("MODEL", "Erro ao iniciar o Driver: " + e.Message); // JB
+                throw new Exception("Erro ao iniciar o Driver: " + e.Message);
+            }
+
             try
             {
                 driver.Navigate().GoToUrl(url); // Navegar para a página web
