@@ -164,3 +164,154 @@
 2024-05-18 18:53:35 [INFO] [CONTROLLER] Apresentar notificação
 2024-05-18 18:53:35 [INFO] [MODEL] Análise concluída para a URL: http://www.sapo.pt
 2024-05-18 18:53:36 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:13:48 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:13:48 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:13:50 [INFO] [MODEL] Navegação para URL bem-sucedida: https://medium.com/aimonks/50-best-chatgpt-prompts-for-social-media-posts-must-use-5f68784976ec
+2024-05-25 13:13:50 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:13:50 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:13:50 [INFO] [MODEL] Obteve 1539 termos.
+2024-05-25 13:13:50 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:13:50 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:13:50 [INFO] [MODEL] Análise concluída para a URL: https://medium.com/aimonks/50-best-chatgpt-prompts-for-social-media-posts-must-use-5f68784976ec
+2024-05-25 13:15:37 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:26:16 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:26:16 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:26:20 [INFO] [MODEL] Navegação para URL bem-sucedida: https://medium.com/aimonks/50-best-chatgpt-prompts-for-social-media-posts-must-use-5f68784976ec
+2024-05-25 13:26:20 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:26:20 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:26:20 [INFO] [MODEL] Obteve 1539 termos.
+2024-05-25 13:26:20 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:26:20 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:26:20 [INFO] [MODEL] Análise concluída para a URL: https://medium.com/aimonks/50-best-chatgpt-prompts-for-social-media-posts-must-use-5f68784976ec
+2024-05-25 13:26:22 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:32:12 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:32:12 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:32:14 [INFO] [MODEL] Navegação para URL bem-sucedida: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+2024-05-25 13:32:14 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:32:14 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:32:14 [INFO] [MODEL] Obteve 1752 termos.
+2024-05-25 13:32:14 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:32:14 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:32:14 [INFO] [MODEL] Análise concluída para a URL: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+2024-05-25 13:32:16 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:41:01 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:41:01 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:41:06 [INFO] [MODEL] Navegação para URL bem-sucedida: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+2024-05-25 13:41:06 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:41:06 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:41:06 [INFO] [MODEL] Obteve 1828 termos.
+2024-05-25 13:41:06 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:41:06 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:41:06 [INFO] [MODEL] Análise concluída para a URL: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+2024-05-25 13:41:09 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:42:17 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:42:17 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:42:20 [INFO] [MODEL] Navegação para URL bem-sucedida: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+2024-05-25 13:42:21 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:42:21 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:42:21 [INFO] [MODEL] Obteve 1828 termos.
+2024-05-25 13:42:21 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:42:21 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:42:21 [INFO] [MODEL] Análise concluída para a URL: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+2024-05-25 13:42:39 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:45:09 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:47:17 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:47:17 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:47:22 [INFO] [MODEL] Navegação para URL bem-sucedida: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:47:22 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:47:22 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:47:22 [INFO] [MODEL] Obteve 1467 termos.
+2024-05-25 13:47:22 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:47:22 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:47:22 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:47:32 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 13:51:47 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:51:47 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:51:53 [INFO] [MODEL] Navegação para URL bem-sucedida: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:51:54 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:51:54 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:51:54 [INFO] [MODEL] Obteve 1468 termos.
+2024-05-25 13:51:54 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:51:54 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:51:54 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:51:56 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:51:56 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:52:00 [INFO] [MODEL] Navegação para URL bem-sucedida: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:52:00 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:52:00 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:52:00 [INFO] [MODEL] Obteve 1455 termos.
+2024-05-25 13:52:00 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:52:00 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:52:00 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:52:02 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 13:52:02 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:52:06 [INFO] [MODEL] Navegação para URL bem-sucedida: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:52:06 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:52:06 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 13:52:06 [INFO] [MODEL] Obteve 1430 termos.
+2024-05-25 13:52:06 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 13:52:06 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 13:52:06 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/43802306/how-to-set-combobox-default-value
+2024-05-25 13:52:13 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 15:08:40 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 15:08:40 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:08:40 [INFO] [MODEL] Iniciando o Driver: chrome
+2024-05-25 15:08:47 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.selenium.dev/documentation/webdriver/browsers/
+2024-05-25 15:08:47 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:08:47 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 15:08:47 [INFO] [MODEL] Obteve 175 termos.
+2024-05-25 15:08:47 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 15:08:47 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:08:47 [INFO] [MODEL] Análise concluída para a URL: https://www.selenium.dev/documentation/webdriver/browsers/
+2024-05-25 15:08:49 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 15:08:49 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:08:49 [INFO] [MODEL] Iniciando o Driver: firefox
+2024-05-25 15:09:00 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.selenium.dev/documentation/webdriver/browsers/
+2024-05-25 15:09:00 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:09:00 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 15:09:00 [INFO] [MODEL] Obteve 193 termos.
+2024-05-25 15:09:00 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 15:09:00 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:09:00 [INFO] [MODEL] Análise concluída para a URL: https://www.selenium.dev/documentation/webdriver/browsers/
+2024-05-25 15:09:03 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 15:09:03 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:09:03 [INFO] [MODEL] Iniciando o Driver: edge
+2024-05-25 15:09:10 [INFO] [MODEL] Navegação para URL bem-sucedida: https://www.selenium.dev/documentation/webdriver/browsers/
+2024-05-25 15:09:11 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:09:11 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 15:09:11 [INFO] [MODEL] Obteve 175 termos.
+2024-05-25 15:09:11 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 15:09:11 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:09:11 [INFO] [MODEL] Análise concluída para a URL: https://www.selenium.dev/documentation/webdriver/browsers/
+2024-05-25 15:09:23 [INFO] [CONTROLLER] Programa iniciado
+2024-05-25 15:14:05 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 15:14:05 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:05 [INFO] [MODEL] Iniciando o Driver: edge
+2024-05-25 15:14:09 [INFO] [MODEL] Navegação para URL bem-sucedida: https://stackoverflow.com/questions/77369273/how-to-disable-hide-command-prompt-in-selenium-edge-webdriver
+2024-05-25 15:14:09 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:09 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 15:14:09 [INFO] [MODEL] Obteve 1165 termos.
+2024-05-25 15:14:09 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 15:14:09 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:09 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/77369273/how-to-disable-hide-command-prompt-in-selenium-edge-webdriver
+2024-05-25 15:14:12 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 15:14:12 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:12 [INFO] [MODEL] Iniciando o Driver: firefox
+2024-05-25 15:14:20 [INFO] [MODEL] Navegação para URL bem-sucedida: https://stackoverflow.com/questions/77369273/how-to-disable-hide-command-prompt-in-selenium-edge-webdriver
+2024-05-25 15:14:21 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:21 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 15:14:21 [INFO] [MODEL] Obteve 1177 termos.
+2024-05-25 15:14:21 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 15:14:21 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:21 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/77369273/how-to-disable-hide-command-prompt-in-selenium-edge-webdriver
+2024-05-25 15:14:25 [INFO] [CONTROLLER] Iniciar análise
+2024-05-25 15:14:25 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:25 [INFO] [MODEL] Iniciando o Driver: chrome
+2024-05-25 15:14:28 [INFO] [MODEL] Navegação para URL bem-sucedida: https://stackoverflow.com/questions/77369273/how-to-disable-hide-command-prompt-in-selenium-edge-webdriver
+2024-05-25 15:14:28 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:28 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-25 15:14:28 [INFO] [MODEL] Obteve 1207 termos.
+2024-05-25 15:14:28 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-25 15:14:28 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-25 15:14:28 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/77369273/how-to-disable-hide-command-prompt-in-selenium-edge-webdriver
+2024-05-25 15:14:37 [INFO] [CONTROLLER] Programa iniciado

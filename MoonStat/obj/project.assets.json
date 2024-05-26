@@ -91,19 +91,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\goncalo.amaral\\.nuget\\packages\\": {}
+    "C:\\Users\\Escritório\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UAb\\MoonStat\\MoonStat\\MoonStat.csproj",
+      "projectUniqueName": "C:\\Users\\Escritório\\Documents\\LabSoft\\MoonStat\\MoonStat.csproj",
       "projectName": "MoonStat",
-      "projectPath": "D:\\UAb\\MoonStat\\MoonStat\\MoonStat.csproj",
-      "packagesPath": "C:\\Users\\goncalo.amaral\\.nuget\\packages\\",
-      "outputPath": "D:\\UAb\\MoonStat\\MoonStat\\obj\\",
+      "projectPath": "C:\\Users\\Escritório\\Documents\\LabSoft\\MoonStat\\MoonStat.csproj",
+      "packagesPath": "C:\\Users\\Escritório\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Escritório\\Documents\\LabSoft\\MoonStat\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\goncalo.amaral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Escritório\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -111,6 +116,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -158,16 +164,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache D:\\UAb\\MoonStat\\MoonStat\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

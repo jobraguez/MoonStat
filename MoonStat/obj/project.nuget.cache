@@ -1,18 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MzLxBXGZGW6rvKIUXjs9LCcQ2yNHCmY5ZZ7MEFMtVrjE5EamCmua5dSdbJINOT3JA9BI2THA0t/6/ft5tJUxvA==",
+  "dgSpecHash": "TRdTkPzFOw5mhSAQ3EiOUDM3In8HnXjkVj2dfR9GpjAtnYD19Wrq2wJ92RjPy2PFP8YDNyU2XQ8o7akqQ5q1SQ==",
   "success": true,
-  "projectFilePath": "D:\\UAb\\MoonStat\\MoonStat\\MoonStat.csproj",
+  "projectFilePath": "C:\\Users\\Escritório\\Documents\\LabSoft\\MoonStat\\MoonStat.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\goncalo.amaral\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\goncalo.amaral\\.nuget\\packages\\selenium.webdriver\\4.20.0\\selenium.webdriver.4.20.0.nupkg.sha512"
+    "C:\\Users\\Escritório\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Escritório\\.nuget\\packages\\selenium.webdriver\\4.20.0\\selenium.webdriver.4.20.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache D:\\UAb\\MoonStat\\MoonStat\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
