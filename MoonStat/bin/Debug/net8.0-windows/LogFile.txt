@@ -315,3 +315,46 @@
 2024-05-25 15:14:28 [INFO] [CONTROLLER] Apresentar notificação
 2024-05-25 15:14:28 [INFO] [MODEL] Análise concluída para a URL: https://stackoverflow.com/questions/77369273/how-to-disable-hide-command-prompt-in-selenium-edge-webdriver
 2024-05-25 15:14:37 [INFO] [CONTROLLER] Programa iniciado
+2024-05-26 18:34:35 [INFO] [CONTROLLER] Programa iniciado
+2024-05-26 18:35:41 [INFO] [CONTROLLER] Iniciar análise
+2024-05-26 18:35:41 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:35:41 [INFO] [MODEL] Iniciando o Driver: chrome
+2024-05-26 18:35:47 [ERROR] [MODEL] Erro ao obter conteúdo da página web para a URL http://vvv: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome-headless-shell=125.0.6422.77)
+2024-05-26 18:35:47 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:35:47 [ERROR] [MODEL] Erro ao obter conteúdo da página web: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome-headless-shell=125.0.6422.77)
+2024-05-26 18:35:49 [INFO] [CONTROLLER] Programa iniciado
+2024-05-26 18:43:38 [INFO] [CONTROLLER] Iniciar análise
+2024-05-26 18:43:38 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:43:39 [INFO] [MODEL] Iniciando o Driver: chrome
+2024-05-26 18:43:46 [INFO] [MODEL] Navegação para URL bem-sucedida: http://www.google.com
+2024-05-26 18:43:46 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:43:46 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-26 18:43:46 [INFO] [MODEL] Obteve 261 termos.
+2024-05-26 18:43:46 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-26 18:43:46 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:43:46 [INFO] [MODEL] Análise concluída para a URL: http://www.google.com
+2024-05-26 18:44:00 [INFO] [CONTROLLER] Programa iniciado
+2024-05-26 18:44:15 [INFO] [CONTROLLER] Iniciar análise
+2024-05-26 18:44:15 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:44:15 [INFO] [MODEL] Iniciando o Driver: firefox
+2024-05-26 18:44:24 [INFO] [CONTROLLER] Iniciar análise
+2024-05-26 18:44:24 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:44:24 [INFO] [MODEL] Iniciando o Driver: edge
+2024-05-26 18:44:25 [INFO] [CONTROLLER] Iniciar análise
+2024-05-26 18:44:25 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:44:25 [INFO] [MODEL] Iniciando o Driver: edge
+2024-05-26 18:44:28 [INFO] [MODEL] Navegação para URL bem-sucedida: http://www.google.com
+2024-05-26 18:44:29 [INFO] [CONTROLLER] Programa iniciado
+2024-05-26 18:44:42 [INFO] [CONTROLLER] Iniciar análise
+2024-05-26 18:44:42 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:44:42 [INFO] [MODEL] Iniciando o Driver: edge
+2024-05-26 18:44:49 [INFO] [MODEL] Navegação para URL bem-sucedida: http://www.google.com
+2024-05-26 18:44:49 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:44:49 [INFO] [MODEL] Conteúdo obtido, iniciando análise do texto.
+2024-05-26 18:44:49 [INFO] [MODEL] Obteve 261 termos.
+2024-05-26 18:44:49 [INFO] [MODEL] Os termos mais usados foram calculados.
+2024-05-26 18:44:49 [INFO] [CONTROLLER] Apresentar notificação
+2024-05-26 18:44:49 [INFO] [MODEL] Análise concluída para a URL: http://www.google.com
+2024-05-26 18:44:52 [INFO] [CONTROLLER] Programa iniciado
