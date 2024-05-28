@@ -27,7 +27,7 @@ Apresenta os resultados da análise.
 Atualiza o estado da análise.
 
 Logger.cs:
-Registra todas as ações importantes em um ficheiro de log.
+Regista todas as ações importantes em um ficheiro de log.
 Dependências
 OpenQA.Selenium: Usado para navegar e obter o conteúdo das páginas web.
 
