@@ -1,7 +1,4 @@
-using System;
-using System.Drawing;
 using System.Text.RegularExpressions;
-using System.Windows.Forms;
 
 namespace MoonStat
 {
@@ -63,17 +60,17 @@ namespace MoonStat
             Application.Run(this);
         }
 
-        public void ApresentarResultados(String resultados)
+        public void ApresentarResultados(string resultados)
         {
             resultadosTextBox.Text = resultados;
         }
 
-        public void AtualizarProgresso(String patamar)
+        public void AtualizarProgresso(string patamar)
         {
             progressoDaAnalise.Text = patamar;
         }
 
-        private String AdicionarPrefixoHTTP(String url)
+        private string AdicionarPrefixoHTTP(string url)
         {
             if (!url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) &&
                 !url.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
@@ -90,8 +87,8 @@ namespace MoonStat
         }
         private void iniciarAnalise_Click(object sender, EventArgs e)
         {
-            String urlStr = AdicionarPrefixoHTTP(inputURL.Text);
-            String selectedriver = comboBox1.SelectedItem.ToString() ?? "chrome"; ;
+            string urlStr = AdicionarPrefixoHTTP(inputURL.Text);
+            string selectedriver = comboBox1.SelectedItem.ToString() ?? "Chrome"; ;
             
             if (IsValidURL(urlStr) && Uri.IsWellFormedUriString(urlStr, UriKind.Absolute))
             {
@@ -110,7 +107,7 @@ namespace MoonStat
 
         private void View_Load(object sender, EventArgs e)
         {
-            comboBox1.SelectedItem = "chrome";
+            comboBox1.SelectedItem = "Chrome";
         }
     }
 }

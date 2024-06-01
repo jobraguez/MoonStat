@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Edge;
@@ -25,7 +21,7 @@ namespace MoonStat
         private View view;
         private IWebDriver? driver;
 
-        private ILogs logger;
+        private Logger logger;
 
         public EventHandler<Notificacao>? notificacaoEvent; // JB iNSERI ?
         public EventHandler<Resultados>? resultadosEvent; // JB iNSERI ?
@@ -39,14 +35,14 @@ namespace MoonStat
 
         }
 
-        public void IniciarAnalise(String url, String driver)
+        public void IniciarAnalise(string url, string driver)
         {
             Task.Run(() =>
             {
                 Notificar("A obter conteúdo da página web");
-                string[] termos = new string[0];
+                string[] termos = [];
                 int numTermos = 0;
-                var termosMaisUsados = new Dictionary<string, int>(); //?
+                var termosMaisUsados = new Dictionary<string, int>();
                 try
                 {
                     var texto = AnalisarWeb(url, driver); // Analisar o conteúdo da página web
@@ -60,7 +56,6 @@ namespace MoonStat
                     termosMaisUsados = TermosMaisUsados(termos);
                     logger.LogInfo("MODEL", $"Os termos mais usados foram calculados."); // JB
 
-                    // outras estatisticas relevantes
                     EntregarResultados(numTermos, termosMaisUsados);
                     Notificar("Análise concluída");
                     logger.LogInfo("MODEL", "Análise concluída para a URL: " + url); // JB
@@ -74,7 +69,7 @@ namespace MoonStat
             });
         }
 
-        private void Notificar(String msg) // JB ALTEREI
+        private void Notificar(string msg) // JB ALTEREI
         {
             notificacaoEvent?.Invoke(this, new Notificacao { msg = msg });
         }
@@ -93,14 +88,14 @@ namespace MoonStat
             }
         }
 
-        private string AnalisarWeb(String url, String d)
+        private string AnalisarWeb(string url, string d)
         {
             
             try
             {
                 logger.LogInfo("MODEL", "Iniciando o Driver: " + d);
 
-                if (d == "chrome")
+                if (d == "Chrome")
                 {
                     // Desativar a janela de prompt do Chrome
                     var chromeDriverService = ChromeDriverService.CreateDefaultService();
@@ -114,7 +109,7 @@ namespace MoonStat
 
                     driver = new ChromeDriver(chromeDriverService, options);
                 }
-                else if (d == "firefox")
+                else if (d == "Firefox")
                 {
                     var firefoxDriverService = FirefoxDriverService.CreateDefaultService();
                     firefoxDriverService.HideCommandPromptWindow = true;
@@ -124,7 +119,7 @@ namespace MoonStat
 
                     driver = new FirefoxDriver(firefoxDriverService, options);
                 }
-                else if (d == "edge")
+                else if (d == "Edge")
                 {
                     var edgeDriverService = EdgeDriverService.CreateDefaultService();
                     edgeDriverService.HideCommandPromptWindow = true;

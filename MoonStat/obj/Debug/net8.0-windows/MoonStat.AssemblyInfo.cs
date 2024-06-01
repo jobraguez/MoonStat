@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoonStat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1648da21b024784151da6bda27d2c9e9c13ac091")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53ee1f1b3189ba8a9fa50096499779d85442ed1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoonStat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoonStat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

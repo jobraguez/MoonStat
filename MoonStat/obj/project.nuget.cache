@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UFpPjLflqpNLk/tLRd88KPZpOTTxJvxmBg78qDgiLgaBM8/Iw+H2vSgHZRIfnLCamEC6aXmaVFeGe8jWQFy2NA==",
+  "dgSpecHash": "cEqHuvQKnSdwX7hbj4TKI2DP46zuBshtLiUt02LEc/4oCZEMY77ZlmnwsC7JysjhsXSLiHqdp0213VSyEkTvsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbrag\\Desktop\\moooo\\MoonStat\\MoonStat.csproj",
+  "projectFilePath": "C:\\Users\\Nuno\\Desktop\\MoonStat\\MoonStat\\MoonStat.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jbrag\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\jbrag\\.nuget\\packages\\selenium.webdriver\\4.20.0\\selenium.webdriver.4.20.0.nupkg.sha512"
+    "C:\\Users\\Nuno\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Nuno\\.nuget\\packages\\selenium.webdriver\\4.20.0\\selenium.webdriver.4.20.0.nupkg.sha512"
   ],
   "logs": []
 }

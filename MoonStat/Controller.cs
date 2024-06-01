@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace MoonStat
 {
     internal class Controller
@@ -11,7 +6,7 @@ namespace MoonStat
         private View view;
         private Model model;
 
-        private ILogs logger;
+        private Logger logger;
 
         public Controller()
         {
